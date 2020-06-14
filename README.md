@@ -62,4 +62,9 @@ pass: root
 
 </pre>
 
+**Requirements for the host:** 
+- CentOS 7 or more
+- Fedora 30 or more
+- systemd-container package
+
 
