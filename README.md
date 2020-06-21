@@ -20,6 +20,11 @@ This software appliances are used with systemd-nspawn technology that create lig
 ![Base](images/centos7.base.png)
 ![Mail](images/centos7.mail.png)
 
+**Requirements for host system:** 
+- CentOS 7 or more
+- Fedora 30 or more
+- systemd-container package
+
 **Installation:** 
 <pre>
 # Install systemd-container 
@@ -62,9 +67,5 @@ pass: root
 
 </pre>
 
-**Requirements for the host:** 
-- CentOS 7 or more
-- Fedora 30 or more
-- systemd-container package
 
 
