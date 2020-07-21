@@ -51,7 +51,7 @@ Ctrl+]]]
 
 # Configure systemd-nspawn
 sudo vi /etc/systemd/system/systemd-nspawn@.service
-ExecStart=/usr/bin/systemd-nspawn --quiet --boot --settings=override –machine=%i
+ExecStart=/usr/bin/systemd-nspawn --quiet --boot --settings=override --machine=%i
 
 # Create link to container
 sudo ls -l /var/lib/machines
